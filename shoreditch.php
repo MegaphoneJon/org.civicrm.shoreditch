@@ -128,8 +128,8 @@ function shoreditch_civicrm_coreResourceList(&$items, $region) {
     CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'base/js/tab.js', 1000, 'html-header');
     CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'base/js/button.js', 1000, 'html-header');
     CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'js/noConflict.js', 1001, 'html-header');
-    CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'js/add-missing-date-addons.js');
-    CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'js/main-menu.js');
+    CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'js/add-missing-date-addons.js', 1002, 'html-header');
+    CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.shoreditch', 'js/main-menu.js', '1003', 'html-header');
   }
 }
 
